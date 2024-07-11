@@ -3,6 +3,7 @@
 body {
     max-width: 1440px;
     margin: 0 auto;
+    /* background: rgb(189, 155, 160); */
 }
 a {
     text-decoration: none;
@@ -81,12 +82,161 @@ nav h2:hover{
     height: 66px;
     width: 200px;
     padding: 21px 24px;
-    margin-top: 50px;
     color: #fff;
     background-color: #0D1321;
     border-radius: 8px;
     align-items: center;
+    font-size: 20px;
+    font-weight: 600;
     justify-content: center;
     margin-left: 420px;
 }
-
+.development {
+    width: 1140px;
+    margin: 0 auto;
+    border: 2px solid #fffdfd;
+    border-radius: 16px;
+    background-color: #0D132105;
+    margin-bottom: 96px;
+}
+.development_container {
+    width: 946px;
+    margin: 80px 97px;
+}
+.development_text {
+    padding: 0 47px 48px 47px;
+    width: 852px;
+    text-align: center;
+}
+.development_text h2 {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 800;
+    font-size: 32px;
+    color: #0D1321;
+}
+.development_text p {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+/* development flex-------- */
+.development_single-1{
+    margin: 59px 0 58px 48px;
+}
+.development_flex {
+    width: 946px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-bottom: 37px;
+}
+.development_single-1 h3 {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0D1321;
+    padding-left: 0;
+}
+.development_single-1 p {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    padding: 16px 9px 32px 0;
+}
+.development_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 99px;
+}
+.development_single-2 img {
+    width: 274px;
+    padding: 48px 48px 48px 0;
+}
+/* development part flex - 1 */
+.development_flex_2 {
+    width: 946px;
+    border-radius: 16px;
+    background-color: #fff;
+    margin-bottom: 37px;
+    border: 2px solid #f8f7f4;
+}
+.development_single_4 {
+    width: 477px;
+}
+.development_single_4 h3 {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0D1321;
+}
+.development_flex-2 {
+    margin: 48px 48px;
+    width: 850px;
+    display: flex;
+    gap: 32px;
+}
+.development_single_4 p {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+/* Development part flex - 3 */
+.development_flex_3 {
+    width: 946px;
+    border-radius: 16px;
+    background-color: #fff;
+    margin-bottom: 37px;
+    border: 2px solid #f6fcf6;
+}
+.development_flex-3 {
+    margin: 48px 48px;
+    width: 850px;
+    display: flex;
+    justify-content: end;
+    gap: 133px;
+}
+.development_single-4 {
+    width: 477px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.development_single-4 h3 {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0D1321;
+}
+.development_single-4 p {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    padding-top: 16px;
+    padding-bottom: 32px
+}
+.development_single_5 img {
+    width: 240px;
+    height: 240px;
+}
+.learn{
+    width: 149px;
+    height: 48px;
+    padding: 12px 20px;
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid;
+    color: #0D1321;
+    border-radius: 8px;
+    transition: 1s;
+}
+.learn:hover{
+    background: linear-gradient(45deg, blue, green);
+    color: white;
+    border: 2px solid black;
+}
