@@ -19,6 +19,7 @@ nav h2 {
     font-size: 30px;
     font-family:sans-serif;
     color: #0D1321;
+    cursor: pointer;
 }
 nav h2:hover{
     text-decoration: underline;
