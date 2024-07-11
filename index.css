@@ -240,3 +240,41 @@ nav h2:hover{
     color: white;
     border: 2px solid black;
 }
+
+#indpiration {
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 145px;
+    margin-top: 50px;
+}
+.indpiration_text {
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+}
+.indpiration_text h2 {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.indpiration_text p {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0D1321;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.video{
+    width: 1076px;
+    height: 550px;
+    border: 1px inside;
+    border-radius: 16px;
+    padding: 32px 32px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+iframe{
+    border-radius: 10px;
+}
