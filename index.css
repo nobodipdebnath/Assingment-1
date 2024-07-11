@@ -82,8 +82,8 @@ nav h2:hover{
     height: 66px;
     width: 200px;
     padding: 21px 24px;
-    color: #fff;
-    background-color: #0D1321;
+    color: black;
+    background-color: rgb(210, 204, 204);
     border-radius: 8px;
     align-items: center;
     font-size: 20px;
@@ -91,13 +91,18 @@ nav h2:hover{
     justify-content: center;
     margin-left: 420px;
     cursor: pointer;
+    transition: 1s;
+}
+.menu_btn:hover{
+    background-color: rgb(54, 54, 219);
+    color: #fff;
 }
 .development {
     width: 1140px;
     margin: 0 auto;
     border: 2px solid #fffdfd;
     border-radius: 16px;
-    background-color: #0D132105;
+    background-color: rgb(243, 243, 243);
     margin-bottom: 96px;
 }
 .development_container {
@@ -450,6 +455,30 @@ iframe{
     color: white;
 }
 
+#foter_container{
+    height: 100px;
+    border: 1px solid #0D132108 ;
+    border-radius: 16px;
+    background-color:#0D132108 ;
+}
+.footer_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_icons a{
+    margin-left: 10px;
+}
+.footer_icons{
+    height: 36px;
+   margin: 40px 150px;
+}
+.footer_icons h4{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #0D1321
+}
 
 
 
