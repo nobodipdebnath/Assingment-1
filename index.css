@@ -90,6 +90,7 @@ nav h2:hover{
     font-weight: 600;
     justify-content: center;
     margin-left: 420px;
+    cursor: pointer;
 }
 .development {
     width: 1140px;
@@ -244,7 +245,7 @@ nav h2:hover{
 #indpiration {
     width: 1140px;
     margin: 0 auto;
-    margin-bottom: 145px;
+    margin-bottom: 50px;
     margin-top: 50px;
 }
 .indpiration_text {
@@ -278,3 +279,126 @@ nav h2:hover{
 iframe{
     border-radius: 10px;
 }
+
+#current {
+    width: 1140px;
+    margin: 0 auto;
+}
+.current_text {
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.current_text h2{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+}
+.currten-text p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+}
+/* ---------- Current part Flex---------  */
+.current_flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 111px;
+}
+.current_flex_container {
+    width: 364px;
+    border-radius: 16px;
+    background-color: #e240183b;
+}
+.color-1 {
+    background-color: #004de81c;
+}
+.color-2 {
+    background-color: #ffdd001d;
+}
+.current_flex_text {
+    width: 284px;
+    margin: 40px 40px;
+}
+.current_flex_text img {
+    width: 56px;
+    height: 56px;
+}
+.current_flex_text h2 {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 800;
+    font-size: 24px;
+    color: #0D1321;
+    margin-top: 24px;
+    margin-bottom: 5px;
+}
+.current_flex_text p {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.current_flex_text a {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+    font-size: 14px;
+    color: #0D1321;
+    border-bottom: 2px solid #0D1321;
+}
+.next_target_text {
+    width: 946px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.next_target_text h2 {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 800;
+    font-size: 32px;
+    color: #0D1321;
+}
+.next_target_text p {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+}
+.next_target_flex_container{
+    border: 1px solid #0D1321;
+    border-radius: 16px;
+    padding: 40px 40px;
+    margin-bottom: 24px;
+}
+.next_target_flex {
+    width: 1060px;
+    display: flex;
+    gap: 24px;
+}
+.next_target_flex_text h2 {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 800;
+    font-size: 24px;
+    color: #0D1321;
+}
+.next_target_flex_text p {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+}
+.next_target_flex_text a {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0D1321;
+    border-bottom: 2px solid #0D1321;
+}
+
+
+
+
